@@ -11,4 +11,4 @@ function fuzzyMatch(drivers, str) {
     matchLetters = matchLetters.join('')
      return matchLetters.toLowerCase() === string.toLowerCase()
   });
-}
+};
