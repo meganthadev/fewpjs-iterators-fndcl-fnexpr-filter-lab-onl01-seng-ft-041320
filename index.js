@@ -5,9 +5,9 @@ function findMatching(drivers, str) {
   return matching
 }
 
-function fuzzyMatch(driver, str) { 
-  return driver.filter( driver => {
-    let matchLetters = driver.split('').slice(0, str.length)
+function fuzzyMatch(drivers, str) { 
+  return drivers.filter( drivers => {
+    let matchLetters = drivers.split('').slice(0, str.length)
     matchLetters = matchLetters.join('')
      return matchLetters.toLowerCase() === str.toLowerCase()
   });
