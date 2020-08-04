@@ -5,7 +5,7 @@ function findMatching(drivers, str) {
   return matching
 }
 
-function fuzzyMatch(drivers, str) { 
+function fuzzyMatch(driver, str) { 
   return driver.filter( driver => {
     let matchLetters = driver.split('').slice(0, str.length)
     matchLetters = matchLetters.join('')
