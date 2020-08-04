@@ -14,5 +14,7 @@ function fuzzyMatch(drivers, str) {
 }
 
 function matchName(ArrayOfObj, str) {
-  return ArrayOfObj.filter
+  return ArrayOfObj.filter( obj => {
+    
+  })
 }
