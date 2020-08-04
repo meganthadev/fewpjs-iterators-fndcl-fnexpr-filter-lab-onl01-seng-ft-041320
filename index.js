@@ -12,3 +12,7 @@ function fuzzyMatch(drivers, str) {
      return matchLetters.toLowerCase() === str.toLowerCase()
   });
 }
+
+function matchName(drivers, str) {
+  
+}
