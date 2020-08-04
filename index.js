@@ -5,14 +5,14 @@ function findMatching(drivers, str) {
   return matching
 }
 
-function fuzzyMatch(drivers, str) { 
+function fuzzyMatch(drivers, string) { 
   return driver.filter( driver => {
-    let matchLetters = driver.split('').slice(0, str.length)
+    let matchLetters = driver.split('').slice(0, string.length)
     matchLetters = matchLetters.join('')
-     return matchLetters.toLowerCase() === str.toLowerCase()
+     return matchLetters.toLowerCase() === string.toLowerCase()
   });
 }
 
-function matchName(ArrayofObj, str) {
+//function matchName(ArrayOfObj, str) {
   
-}
+//}
