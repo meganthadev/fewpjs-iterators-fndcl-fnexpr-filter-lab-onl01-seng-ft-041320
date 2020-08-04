@@ -7,6 +7,6 @@ function findMatching(drivers, str) {
 
 function fuzzyMatch(drivers, str) { 
   return driver.filter( driver => {
-    let matchLetters = driver.split(' ')
+    let matchLetters = driver.split(' ').slice
   })
 }
