@@ -10,5 +10,5 @@ function fuzzyMatch(drivers, str) {
     let matchLetters = driver.split('').slice(0, string.length)
     matchLetters = matchLetters.join('')
      return matchLetters.toLowerCase() === string.toLowerCase()
-  })
+  });
 }
