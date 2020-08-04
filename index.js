@@ -4,3 +4,7 @@ function findMatching(drivers, str) {
   })
   return matching
 }
+
+function fuzzyMatch(drivers, str) { driver => {
+  
+}
